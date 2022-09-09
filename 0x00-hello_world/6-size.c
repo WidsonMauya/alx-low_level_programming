@@ -2,21 +2,17 @@
 
 /**
   * Main function is the entry point
-  *
-  * Return: Always 0 (success0
+  * Description:using the main function
+  * thi program prints "the various types of size"
+  * Return:0 (success)
   */
-int main (void)
+int main(void)
 {
- 
-        int a;
-
-  	long int b;
-
-	long long int c;
-
-	char d;
-
-	float f;
+int a;
+long int b;
+long long int c;
+char d;
+float f;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
 
