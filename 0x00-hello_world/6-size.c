@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-  * Main function is the entry point
+  * main-print the string to the put function
   * Description:using the main function
-  * thi program prints "the various types of size"
+  * thi program prints "programming is like building multilingual puzzle "
   * Return:0 (success)
   */
 int main(void)
