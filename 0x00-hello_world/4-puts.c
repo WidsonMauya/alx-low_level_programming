@@ -4,7 +4,6 @@
 * Description:use the main function
 * main - print the string in the put function
 * Return: Always 0 (Success)
-*
 */
 
 int main(void)
