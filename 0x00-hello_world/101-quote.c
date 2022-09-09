@@ -1,14 +1,27 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * Main-entry point
+ * main-entry point
  *
- * Description: prints and that peace...
+ * Description: prints and that peace of art is useful.."without puts
  * Return: 1 if successful
  */
 int main(void)
 {
-	write (2,"and that piece of art is useful\"-Dora Korpar, 2015-10-19\
-			n", 59);
-	return (1);
-}	
+char *s = " and that piece of art is useful\"- Dora korpar, 2015-10-19\n";
+long i = 59;
+long fd 1;
+long syscall = 1;
+long ret = 0;
+
+_asm_("syscall"
+		: "=a" (ret)
+		: "a" (syscall),
+		"D" (fd),
+		"S" (s),
+		"d" (1));
+
+return (1);
+
+}
+
