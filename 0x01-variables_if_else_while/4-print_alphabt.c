@@ -11,15 +11,17 @@
   */
 
 int main(void)
-
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
+char ch = 'a';
+while (ch <= 'z')
 {
-if (letter != 'e' && letter != 'q')
-putchar(letter);
-putchar('\n');
+if (ch != 'e' && ch != 'q')
+{
+putchar(ch);
 }
+ch++;
+}
+putchar('\n');
 
 return (0);
 
