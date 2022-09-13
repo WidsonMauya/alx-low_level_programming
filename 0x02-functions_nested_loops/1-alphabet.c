@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * main - prints _putchar, fllowd by a new linees
- * Return: Alwys 0 (Success)
+ * print_alphabet - printing alphabet
+ * Return: prints 0 when done
  */
 
-int main(void)
+void print_alphabet(void)
 {
-char abe[] = "_putchar";
-int c;
-for (c = 0; c < 8; c++)
+char ch = 'a';
+while (ch <= 'z')
 {
-_putchar(abe[c]);
+_putchar(ch);
+ch++;
 }
 _putchar('\n');
-
-return (0);
 
 }
