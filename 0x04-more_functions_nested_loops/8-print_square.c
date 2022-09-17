@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_square - prints square stuff
  * @size: integer to set square size
@@ -18,13 +17,9 @@ else
 for (i = 0; i < size; i++)
 {
 for (j = 0; j < size; j++)
-{																										_putchar('#');
+{
+_putchar('#');
 }
-_putchar('\n')
+_putchar('\n');												}
 }
 }
-}
-
-Footer
-
-© 2022 GitHub, Inc.
