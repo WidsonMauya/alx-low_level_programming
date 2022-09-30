@@ -2,6 +2,11 @@
 
 #define MAIN_H
 
+/**
+ * File: main
+ *Desc: header file
+ */
+
 int _putchar(char c);
 
 int _islower(int c);
